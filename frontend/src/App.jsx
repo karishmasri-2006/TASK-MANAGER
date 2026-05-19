@@ -66,7 +66,6 @@ function App() {
     <div className="app">
       <div className="container">
         <h1>Task Manager</h1>
-        <p className="subtitle">No login needed. Your tasks save automatically.</p>
 
         <form onSubmit={handleSubmit} className="task-form">
           <input
